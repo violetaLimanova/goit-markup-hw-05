@@ -159,3 +159,30 @@
 .input-wrapper:focus-within .input-icon {
   color: #4d5ae5;
 }
+
+.checkbox-input {
+  position: absolute;
+  opacity: 0;
+}
+.checkbox-custom {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #404bbf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+}
+
+.checkbox-custom svg {
+  opacity: 0;
+}
+
+.checkbox-input:checked + .checkbox-custom {
+  background-color: #404bbf;
+  border-color: #404bbf;
+}
+
+.checkbox-input:checked + .checkbox-custom svg {
+  opacity: 1;
+}
