@@ -105,6 +105,10 @@
   height: 40px;
 }
 
+.footer-user:focus {
+  border-color: #31d0aa;
+}
+
 .footer-btn {
   display: flex;
   justify-content: center;
@@ -120,4 +124,10 @@
   letter-spacing: 0.04em;
   color: #fff;
   border: none;
+  transition: background 250ms ease-in-out;
+}
+
+.footer-btn:hover,
+.footer-btn:hover {
+  background-color: #31d0aa;
 }
