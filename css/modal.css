@@ -84,7 +84,8 @@
   transition: border-color 250ms ease;
 }
 
-.modal-input:focus {
+.modal-input:focus,
+.modal-textarea:focus {
   border-color: #4d5ae5;
   outline: transparent;
 }
