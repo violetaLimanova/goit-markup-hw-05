@@ -12,7 +12,9 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity 250ms ease-in-out visibility 250ms ease-in-out;
+  transition:
+    opacity 250ms ease-in-out,
+    visibility 250ms ease-in-out;
 }
 
 .modal-overlay.is-open {
@@ -129,13 +131,13 @@
   gap: 8px;
   font-weight: 400;
   font-size: 12px;
-  line-height: 133%;
+  line-height: 117%;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
 
 .checkbox-highlight {
-  line-height: 133%;
+  line-height: 117%;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
